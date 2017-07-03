@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Targets.Dump</id>
+    <version>1.0.0</version>
+    <authors>tuxagon</authors>
+    <owners>tuxagon</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Echos the values for all msbuild targets variables when you build</description>
+    <licenseUrl>MIT License</licenseUrl>
+    <tags>msbuild targets</tags>
+  </metadata>
+  <files>
+    <file src="Targets.Dump.targets" target="build" />
+  </files>
+</package>
